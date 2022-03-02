@@ -1,0 +1,73 @@
+body {
+  background-color: #cc002b;
+  overflow:auto;
+}
+
+
+
+#background {
+  text-align: center;
+  font-size: 80px;
+  margin-top: 0px;
+}
+
+
+.box {
+  box-sizing: content-box;
+  width: 95%;
+  height:  800px;
+  font-family: roboto;
+  align-items: center;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+
+.input2 {
+  width:  80%;
+  display: flex;
+  align-items: center;
+  margin:  0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+  border: solid black;
+  border-radius: 15px;
+
+}
+
+.username {
+  font-size: 40px;
+  font-family: Roboto;
+}
+
+.password {
+  font-size: 40px;
+  font-family: Roboto;
+}
+
+
+.button {
+  border: solid black;
+  background-color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 15px;
+  align-self: center;
+  margin-right: 120px;
+  margin-top: 50px;
+}
+
+.button1:hover {
+  border: solid #cc002b;
+  color: #cc002b;
+}
+
+
+
+
+
