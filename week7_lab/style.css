@@ -1,0 +1,9 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: lightgreen;
+}
+
+#page {
+    margin: 0 auto;
+    text-align: center;
+}
