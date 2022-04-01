@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="detail.js"></script>
+</head>
+<body>
+    <div class = "logout">
+        <a href="login_hw6.html">
+            <button class="button button1" style="float: right;">Logout</button>
+        </a>
+    </div>
+
+    <div id= "homebutton" >
+        <a href="home_hw6.html">
+            <h1>Carnegie <br> Mellon <br> University</h1>
+        </a>
+    </div>
+
+    <div class="box" style="height: 800px">
+        <div class="info">
+                <div id= "background" >
+                    <h1><br></h1>
+                </div>
+
+                <div class = "search">
+                    <a href="search.html">
+                        <button class="button button1">Search</button>
+                    </a>
+                </div>
+
+                <div id = "semester">
+                    <h1>Semester: <span style="color:#cc002b">Spring 2022</span></h1>
+                </div>
+<div>
+                <table id = "table1">
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+
+                </table>
+
+                <div class = "course1">
+                    <button id = "c410" onclick = "addFunc1()"><span style = "font-size: 30px">05-410</span><br><span style = "font-size: 18px;">User-Centered Research and Evaluation</span></button>
+                </div>
+
+                <script type="text/javascript">
+                    let cn05410 = document.querySelector('#c410')
+                    cn05410.addEventListener('click', () => cn05410.style.color = '#cc002b')
+                    cn05410.addEventListener('click', () => cn05410.style.borderColor = '#cc002b')
+                    function addFunc1() {
+                        var table = document.getElementById("table1");
+                        var row = table.insertRow(1);
+                        var cell1 = row.insertCell(0);
+                        var cell2 = row.insertCell(1);
+                        var cell3 = row.insertCell(2);
+                        var cell4 = row.insertCell(3);
+                        var cell5 = row.insertCell(4);
+                        cell1.innerHTML = "05-410 <br> 11:50am";
+                        cell3.innerHTML = "05-410 <br> 11:50am";
+
+}
+                </script>
+
+
+                <div class = "course1">
+                    <button id = "c430" onclick = "addFunc2()"><span style = "font-size: 30px">05-430</span><br><span style = "font-size: 18px;">Programming Usable Interfaces</span></button>
+                </div>
+
+                <script type="text/javascript">
+                    let cn05430 = document.querySelector('#c430')
+                    cn05430.addEventListener('click', () => cn05430.style.color = '#cc002b')
+                    cn05430.addEventListener('click', () => cn05430.style.borderColor = '#cc002b')
+                    function addFunc2() {
+                        var table = document.getElementById("table1");
+                        var row = table.insertRow(1);
+                        var cell1 = row.insertCell(0);
+                        var cell2 = row.insertCell(1);
+                        var cell3 = row.insertCell(2);
+                        var cell4 = row.insertCell(3);
+                        var cell5 = row.insertCell(4);
+                        cell1.innerHTML = "05-430 <br> 8:35am";
+                        cell3.innerHTML = "05-430 <br> 8:35am";
+
+}
+                </script>
+
+
+                <div class = "course1">
+                    <button id = "c651" onclick = "addFunc3()"><span style = "font-size: 30px">05-651</span><br><span style = "font-size: 18px;">Interaction Design Studio 1</span></button>
+                </div>
+
+                <script type="text/javascript">
+                    let cn05651 = document.querySelector('#c651')
+                    cn05651.addEventListener('click', () => cn05651.style.color = '#cc002b')
+                    cn05651.addEventListener('click', () => cn05651.style.borderColor = '#cc002b')
+                    function addFunc3() {
+                        var table = document.getElementById("table1");
+                        var row = table.insertRow(1);
+                        var cell1 = row.insertCell(0);
+                        var cell2 = row.insertCell(1);
+                        var cell3 = row.insertCell(2);
+                        var cell4 = row.insertCell(3);
+                        var cell5 = row.insertCell(4);
+                        cell2.innerHTML = "05-651 <br> 3:00pm";
+                        cell4.innerHTML = "05-651 <br> 3:00pm";
+
+}
+                </script>
+
+                <div class = "course1">
+                    <button id = "c650" onclick = "addFunc4()"><span style = "font-size: 30px">05-650</span><br><span style = "font-size: 18px;">Interaction Design Studio 2</span></button>
+                </div>
+
+                <script type="text/javascript">
+                    let cn05650 = document.querySelector('#c650')
+                    cn05650.addEventListener('click', () => cn05650.style.color = '#cc002b')
+                    cn05650.addEventListener('click', () => cn05650.style.borderColor = '#cc002b')
+                    function addFunc4() {
+                        var table = document.getElementById("table1");
+                        var row = table.insertRow(1);
+                        var cell1 = row.insertCell(0);
+                        var cell2 = row.insertCell(1);
+                        var cell3 = row.insertCell(2);
+                        var cell4 = row.insertCell(3);
+                        var cell5 = row.insertCell(4);
+                        cell2.innerHTML = "05-650 <br> 10:10am";
+                        cell4.innerHTML = "05-650 <br> 10:10am";
+}
+                </script>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,251 @@
+body {
+  background-color: #cc002b;
+  overflow:auto;
+}
+
+
+
+#background {
+  text-align: center;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+#homebutton {
+  color: white;
+  padding-left: 10px;
+  font-size: 25px;
+  margin-top: -20px;
+}
+
+
+.box {
+  box-sizing: content-box;
+  width: 95%;
+  height:  600px;
+  font-family: roboto;
+  align-items: center;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 40px;
+  margin-top: 30px;
+}
+
+
+.username {
+  font-size: 40px;
+  font-family: Roboto;
+}
+
+.password {
+  font-size: 40px;
+  font-family: Roboto;
+}
+
+
+.button {
+  background-color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 15px;
+  align-self: center;
+  margin-right: 10px;
+  margin-top: -10px;
+  border: solid black;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sb {
+  background-color: white;
+  padding: 16px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 15px;
+  align-self: center;
+  margin-right: 10px;
+  margin-top: -10px;
+  border: solid black;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.schedule {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.housing {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+.finances {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.contact {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.logout {
+  float: right;
+  width: 15%;
+}
+
+.button1:hover {
+  border: solid #cc002b;
+  color: #cc002b;
+}
+
+.search {
+  float: right;
+  width: 30%;
+  margin-right: 80px;
+}
+
+.course {
+  float: right;
+  clear: right;
+
+  background-color: white;
+  padding: 16px 32px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  align-self: center;
+  margin-right: 80px;
+  margin-top: 20px;
+  border: solid;
+  border-color: #cc002b;
+  color: #cc002b;
+  width: 26.5%;
+
+}
+
+.course1 {
+  float: right;
+  clear: right;
+
+  background-color: white;
+  padding: 16px 32px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  align-self: center;
+  margin-right: 80px;
+  margin-top: 20px;
+  border: solid;
+  border-color: white;
+  color: #cc002b;
+  width: 26.5%;
+
+}
+
+a { text-decoration: none; color:white; }
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:white; }
+a:hover, a:active { text-decoration: none; color:white }
+
+#semester {
+  margin-left: 80px;
+  padding-left: 20px;
+  font-size: 30px;
+  margin-top: -30px;
+}
+
+#otherbox {
+  height:  800;
+}
+
+img {
+  margin-left: 80px;
+  height: 50%;
+  width: 50%;
+}
+
+#end {
+  font-size: 30px;
+  margin-left: 80px;
+  color: #cc002b;
+}
+
+#add {
+  float: right;
+  width: 20%;
+  margin-right: 80px;
+  margin-top: -80px;
+}
+
+#c05430 {
+  display: block;
+  border-color: #cc002b;
+  color: hotpink;
+}
+
+#c410 {
+  position: sticky;
+  text-align: left;
+  color: gray;
+  width: 400px;
+  background-color: white;
+  border: solid;
+  border-color: gray;
+  border-radius: 15px;
+}
+
+#c430 {
+  text-align: left;
+  color: gray;
+  width: 400px;
+  background-color: white;
+  border: solid;
+  border-color: gray;
+  border-radius: 15px;
+}
+
+#c651 {
+  text-align: left;
+  color: gray;
+  width: 400px;
+  background-color: white;
+  border: solid;
+  border-color: gray;
+  border-radius: 15px;
+}
+
+#c650 {
+  text-align: left;
+  color: gray;
+  width: 400px;
+  background-color: white;
+  border: solid;
+  border-color: gray;
+  border-radius: 15px;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
+#table1 {
+  float: left;
+  font-size: 30px;
+  margin-left: 100px;
+}
