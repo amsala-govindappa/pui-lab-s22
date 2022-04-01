@@ -42,13 +42,4 @@ const c05650 {
     added: false
 }
 
-let courses = [c05430, c05410, c05651, c05650]
 
-let added = []
-
-function init() {
-    localStorage.setItem(cn05430, false)
-    localStorage.setItem(cn05410, false)
-    localStorage.setItem(cn05651, false)
-    localStorage.setItem(cn05650, false)
-}
