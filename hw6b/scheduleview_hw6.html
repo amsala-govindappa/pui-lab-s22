@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="detail.js"></script>
+</head>
+<body>
+    <div class = "logout">
+        <a href="login_hw6.html">
+            <button class="button button1" style="float: right;">Logout</button>
+        </a>
+    </div>
+
+    <div id= "homebutton" >
+        <a href="home_hw6.html">
+            <h1>Carnegie <br> Mellon <br> University</h1>
+        </a>
+    </div>
+
+    <div class="box" style="height: 800px">
+        <div class="info">
+                <div id= "background" >
+                    <h1><br></h1>
+                </div>
+
+                <div class = "search">
+                    <a href="search.html">
+                        <button class="button button1">Search</button>
+                    </a>
+                </div>
+
+                <div id = "semester">
+                    <h1>Semester: <span style="color:#cc002b">Spring 2022</span></h1>
+                </div>
+<div>
+                <table id = "table1">
+                <tr style = "color: black;">
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                <tr id = "cn430">
+                    <td>05-430<br>8:35am</td>
+                    <td></td>
+                    <td>05-430<br>8:35am</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id = "cn650">
+                    <td></td>
+                    <td>05-650<br>10:10am</td>
+                    <td></td>
+                    <td>05-650<br>10:10am</td>
+                    <td></td>
+                </tr>
+                <tr id = "cn410">
+                    <td>05-410<br>11:50am</td>
+                    <td></td>
+                    <td>05-410<br>11:50am</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id = "cn651">
+                    <td></td>
+                    <td>05-651<br>3:00pm</td>
+                    <td></td>
+                    <td>05-651<br>3:00pm</td>
+                    <td></td>
+                </tr>
+
+                </table>
+
+                <div class = "course1">
+                    <button id = "c410" onclick = "addFunc1()"><span style = "font-size: 30px">05-410</span><br><span style = "font-size: 18px;">User-Centered Research and Evaluation</span></button>
+                </div>
+
+                <script type="text/javascript">
+                    let cn05410 = document.querySelector('#c410')
+                    cn05410.addEventListener('click', () => cn05410.style.color = '#cc002b')
+                    cn05410.addEventListener('click', () => cn05410.style.borderColor = '#cc002b')
+                    function addFunc1() {
+                        var table = document.getElementById("table1");
+                        let read = localStorage.getItem('coursesAdded');
+                        read = JSON.parse(read);
+                        if (read === null || read === undefined) {
+                            document.getElementById('cn410').style.color="black";
+                        }
+                        else if (read.c410 === null || read.c410 === undefined) {
+                            document.getElementById('cn410').style.color="black";
+                        }
+                        else if (read.c410.added === null || read.c410.added === undefined) {
+                            document.getElementById('cn410').style.color="black";
+                        }
+                        else if (((read.c410.added)%2) == 1) {
+                            document.getElementById('cn410').style.color="white";
+                        }
+                        else {
+                            document.getElementById('cn410').style.color="black";
+                        }
+}
+                </script>
+
+
+                <div class = "course1">
+                    <button id = "c430" onclick = "addFunc2()"><span style = "font-size: 30px">05-430</span><br><span style = "font-size: 18px;">Programming Usable Interfaces</span></button>
+                </div>
+
+                <script type="text/javascript">
+                    let cn05430 = document.querySelector('#c430')
+                    cn05430.addEventListener('click', () => cn05430.style.color = '#cc002b')
+                    cn05430.addEventListener('click', () => cn05430.style.borderColor = '#cc002b')
+                    function addFunc2() {
+                        var table = document.getElementById("table1");
+                        let read = localStorage.getItem('coursesAdded');
+                        read = JSON.parse(read);
+                        if (read === null || read === undefined) {
+                            document.getElementById('cn430').style.color="black";
+                        }
+                        else if (read.c430 === null || read.c430 === undefined) {
+                            document.getElementById('cn430').style.color="black";
+                        }
+                        else if (read.c430.added === null || read.c430.added === undefined) {
+                            document.getElementById('cn430').style.color="black";
+                        }
+                        else if (((read.c430.added)%2) == 1) {
+                            document.getElementById('cn430').style.color="white";
+                        }
+                        else {
+                            document.getElementById('cn430').style.color="black";
+                        }
+}
+                </script>
+
+
+                <div class = "course1">
+                    <button id = "c651" onclick = "addFunc3()"><span style = "font-size: 30px">05-651</span><br><span style = "font-size: 18px;">Interaction Design Studio 1</span></button>
+                </div>
+
+                <script type="text/javascript">
+                    let cn05651 = document.querySelector('#c651')
+                    cn05651.addEventListener('click', () => cn05651.style.color = '#cc002b')
+                    cn05651.addEventListener('click', () => cn05651.style.borderColor = '#cc002b')
+                    function addFunc3() {
+                        var table = document.getElementById("table1");
+                        let read = localStorage.getItem('coursesAdded');
+                        read = JSON.parse(read);
+                        if (read === null || read === undefined) {
+                            document.getElementById('cn651').style.color="black";
+                        }
+                        else if (read.c651 === null || read.c651 === undefined) {
+                            document.getElementById('cn651').style.color="black";
+                        }
+                        else if (read.c651.added === null || read.c651.added === undefined) {
+                            document.getElementById('cn651').style.color="black";
+                        }
+                        else if (((read.c651.added)%2) == 1) {
+                            document.getElementById('cn651').style.color="white";
+                        }
+                        else {
+                            document.getElementById('cn651').style.color="black";
+                        }
+
+}
+                </script>
+
+                <div class = "course1">
+                    <button id = "c650" onclick = "addFunc4()"><span style = "font-size: 30px">05-650</span><br><span style = "font-size: 18px;">Interaction Design Studio 2</span></button>
+                </div>
+
+                <script type="text/javascript">
+                    let cn05650 = document.querySelector('#c650')
+                    cn05650.addEventListener('click', () => cn05650.style.color = '#cc002b')
+                    cn05650.addEventListener('click', () => cn05650.style.borderColor = '#cc002b')
+                    function addFunc4() {
+                        var table = document.getElementById("table1");
+                        let read = localStorage.getItem('coursesAdded');
+                        read = JSON.parse(read);
+                        if (read === null || read === undefined) {
+                            document.getElementById('cn650').style.color="black";
+                        }
+                        else if (read.c650 === null || read.c650 === undefined) {
+                            document.getElementById('cn650').style.color="black";
+                        }
+                        else if (read.c650.added === null || read.c650.added === undefined) {
+                            document.getElementById('cn650').style.color="black";
+                        }
+                        else if (((read.c650.added)%2) == 1) {
+                            document.getElementById('cn650').style.color="white";
+                        }
+                        else {
+                            document.getElementById('cn650').style.color="black";
+                        }
+}
+                </script>
+                <script src="main.js"></script>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
