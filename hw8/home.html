@@ -6,24 +6,69 @@
     <script src="NONE.js"></script>
 </head>
 <body>
-    <div class="menu">
-        <a href="education.html" id="nav">Education</a>
-        <a href="work.html" id="nav">Work Experience</a>
-        <a href="projects.html" id="nav">Projects</a>
-        <a href="contact.html" id="nav">Contact</a>
-    </div>
-    <div>
-        <h1 id="name">Amsala Govindappa</h1>
-    </div>
-    <div id=fixed>
-        <h2 id="scrollArrow"><big><big><big><big><big><big><big><big>&#8595</big></big></big></big></big></big></big></big></big></h2>
-    </div>
-    <div class="image">
-        <img src="me.png" id="me">
-    </div>
-    <div class="about">
-        <p id="paragraph">Hello! My name is Amsala Govindappa and I'm a current sophomore at Carnegie Mellon University double majoring in Human-Computer Interaction and Cognitive Science, with a minor in Artifical Intelligence. I am interested in ux design, ux research, and software development, and am open to intern roles in any of these areas.</p>
+    <div class = "container">
+        <section class="page1">
+            <div class="menu">
+                <a href="education.html" id="nav">Education</a>
+                <a href="work.html" id="nav">Work Experience</a>
+                <a href="projects.html" id="nav">Projects</a>
+                <a href="contact.html" id="nav">Contact</a>
+            </div>
+            <div class = "name">
+                <h1 id="name"></h1>
+            </div>
+            <script type="text/javascript">
+                var i = 0;
+                var txt = 'Amsala Govindappa'; /* The text */
+                var speed = 100; /* The speed/duration of the effect in milliseconds */
+
+                function typeWriter() {
+                    if (i < txt.length) {
+                        document.getElementById("name").innerHTML += txt.charAt(i);
+                        i++;
+                        setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter();
+            </script>
+        </section>
+        <section class = page2>
+            <div class="menu3">
+                <a href="education.html" id="nav2">Education</a>
+                <a href="work.html" id="nav2">Work Experience</a>
+                <a href="projects.html" id="nav2">Projects</a>
+                <a href="contact.html" id="nav2">Contact</a>
+            </div>
+            <div class="image">
+                <img src="me.png" id = "me">
+            </div>
+            <div class="about">
+                <p id="paragraph">Hello! My name is Amsala Govindappa and I'm a current sophomore at Carnegie Mellon University double majoring in Human-Computer Interaction and Cognitive Science, with a minor in Artifical Intelligence. I am interested in ux design, ux research, and software development, and am open to intern roles in any of these areas.</p>
+            </div>
+        </section>
     </div>
 
+
+
+    <!--
+    <div class="container">
+        <section id="page1">
+            <div>
+
+            </div>
+            <div id=fixed>
+                <h2 id="scrollArrow"><big><big><big><big><big><big><big><big>&#8595</big></big></big></big></big></big></big></big></big></h2>
+            </div>
+        </section>
+        <section id="page2">
+            <div class="image">
+                <img src="me.png" id="me">
+            </div>
+            <div class="about">
+                <p id="paragraph">Hello! My name is Amsala Govindappa and I'm a current sophomore at Carnegie Mellon University double majoring in Human-Computer Interaction and Cognitive Science, with a minor in Artifical Intelligence. I am interested in ux design, ux research, and software development, and am open to intern roles in any of these areas.</p>
+            </div>
+        </section>
+    </div>
+-->
 </body>
 </html>

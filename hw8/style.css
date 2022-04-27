@@ -1,21 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #0072B2;
-  overflow:auto;
   font-family: Anaheim;
 }
 
+/* TOP NAVIGATION MENUS */
 .menu{
-  margin-top: -120px;
+  width: 100%;
   text-align: center;
   position: fixed;
+  padding-top: 22px;
 }
 
 .menu2{
+  width: 100%;
   margin-top: 22px;
   text-align: center;
   position: fixed;
 }
 
+.menu3{
+  width: 100%;
+  margin-top: 22px;
+  text-align: center;
+  padding-top: 22px;
+}
+
+/* AG HOME BUTTON */
 #home{
   margin-top: -32px;
   text-decoration: none;
@@ -24,6 +40,7 @@ body {
   position: absolute;
 }
 
+/* NAVIGATION BAR TEXT */
 #nav{
   color: white;
   text-decoration: none;
@@ -33,14 +50,36 @@ body {
   position: sticky;
 }
 
+#nav2{
+  color: #0072B2;
+  text-decoration: none;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  font-size: 30px;
+  position: sticky;
+}
+
+/* SEPARATE PAGES (HOME) */
+section{
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+/* NAME ON HOMEPAGE */
 #name{
   text-align: center;
   color: white;
   font-size: 128px;
-  margin-top: 150px;
-  margin-bottom: 60vh;
+  padding-top: 30vh;
 }
 
+/* ARROW ELEMENT */
 #scrollArrow{
   test-align: center;
   color: white;
@@ -48,48 +87,55 @@ body {
   opacity: 75%;
 }
 
+/* ARROW DIV */
 #fixed{
   position: fixed;
   bottom: 0;
   left: 50%;
 }
 
+/* DIV WITH IMAGE (LEFT) */
 .image{
   width: 50%;
   float: left;
 }
 
+/* IMAGE ELEMENT */
 #me{
-  width: 50%;
+  width: 60%;
   height: auto;
   margin-right: 5vw;
-  margin-bottom: 15vh;
+  margin-top: 5vh;
   border-radius: 30px;
   float: right;
 }
 
+/* DIV WITH ABOUT ME TEXT (RIGHT) */
 .about{
   float: right;
   width: 50%;
 }
 
+/* ABOUT ME TEXT */
 #paragraph{
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 1000;
   float: left;
-  width:  50%;
+  width:  60%;
   height: auto;
   margin-left: 5vw;
-  margin-bottom: 15vh;
-  color: white;
+  margin-top: 5vh;
+  color: #0072B2;
 }
 
+/* LABELS ON ALL OTHER PAGES (NOT HOME) (LEFT) */
 .T{
   width: 30%;
   float: left;
   margin-top: 50px;
 }
 
+/* LABEL TEXT */
 #Titles{
   float: right;
   color: white;
@@ -97,12 +143,14 @@ body {
   text-align: right;
 }
 
+/* INFO ON ALL OTHER PAGES (NOT HOME) (RIGHT) */
 .I{
   width: 65%;
   float: right;
   margin-top: 50px;
 }
 
+/* INFO TEXT */
 #Info{
   float: left;
   color: white;
@@ -110,12 +158,23 @@ body {
   text-align: left;
 }
 
+/* AG HOME BUTTON */
 .links{
   text-decoration: none;
   color: white;
 }
 
+/* FIRST SNAP PAGE (HOME) */
+.page1{
+  background-color: #0072B2;
+  color: white;
+}
 
+/* SECOND SNAP PAGE (HOME) */
+.page2{
+  background-color: white;
+  color: #0072B2;
+}
 
 
 
