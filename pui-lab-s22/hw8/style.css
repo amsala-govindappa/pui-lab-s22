@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #0072B2;
+  font-family: Anaheim;
+}
+
+/* TOP NAVIGATION MENUS */
+.menu{
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  padding-top: 22px;
+  padding-bottom: 20px;
+  background-color: #0072B2;
+}
+
+.menu2{
+  width: 100%;
+  margin-top: 22px;
+  text-align: center;
+  position: fixed;
+}
+
+.menu3{
+  width: 100%;
+  margin-top: 22px;
+  text-align: center;
+  padding-top: 22px;
+}
+
+/* AG HOME BUTTON */
+#home{
+  top: -3vh;
+  text-decoration: none;
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  left: 1vw;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* NAVIGATION BAR TEXT */
+#nav{
+  color: white;
+  text-decoration: none;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  font-size: 30px;
+  position: sticky;
+}
+
+#nav2{
+  color: #0072B2;
+  text-decoration: none;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  font-size: 30px;
+  position: sticky;
+}
+
+/* SEPARATE PAGES (HOME) */
+section{
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+/* NAME ON HOMEPAGE */
+#name{
+  text-align: center;
+  color: white;
+  font-size: 128px;
+  padding-top: 30vh;
+}
+
+/* ARROW ELEMENT */
+#scrollArrow{
+  width: 100%;
+  text-align: center;
+  color: white;
+  size: 200%;
+  padding-top: 30vh;
+}
+
+/* ARROW DIV */
+#fixed{
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+}
+
+/* DIV WITH IMAGE (LEFT) */
+.image{
+  width: 50%;
+  float: left;
+}
+
+/* IMAGE ELEMENT */
+#me{
+  width: 60%;
+  height: auto;
+  margin-right: 5vw;
+  margin-top: 15vh;
+  border-radius: 30px;
+  float: right;
+}
+
+/* DIV WITH ABOUT ME TEXT (RIGHT) */
+.about{
+  float: right;
+  width: 50%;
+}
+
+/* ABOUT ME TEXT */
+#paragraph{
+  font-size: 28px;
+  font-weight: 1000;
+  float: left;
+  width:  60%;
+  height: auto;
+  margin-left: 5vw;
+  margin-top: 15vh;
+  color: #0072B2;
+}
+
+/* LABELS ON ALL OTHER PAGES (NOT HOME) (LEFT) */
+.T{
+  width: 30%;
+  float: left;
+  margin-top: 5vh;
+  text-decoration: none;
+}
+
+/* LABEL TEXT */
+#Titles{
+  float: right;
+  color: white;
+  font-size: 32px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.eduT{
+  width: 30%;
+  float: left;
+  margin-top: 15vh;
+}
+
+/* INFO ON ALL OTHER PAGES (NOT HOME) (RIGHT) */
+.I{
+  width: 65%;
+  float: right;
+  margin-top: 5vh;
+}
+
+/* INFO TEXT */
+#Info{
+  float: left;
+  color: white;
+  font-size: 32px;
+  text-align: left;
+}
+
+.eduI{
+  width: 65%;
+  float: right;
+  margin-top: 15vh;
+}
+
+/* AG HOME BUTTON */
+.links{
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+
+/* FIRST SNAP PAGE (HOME) */
+.page1{
+  background-color: #0072B2;
+  color: white;
+}
+
+/* SECOND SNAP PAGE (HOME) */
+.page2{
+  background-color: white;
+  color: #0072B2;
+}
+
+@keyframes animateIn{
+  from {
+    opacity: 0%;
+
+  }
+  to{
+    opacity: 100%;
+  }
+}
+
+.animation{
+  text-decoration: none;
+  animation: animateIn 2s;
+}
+
+#nav:hover{
+  font-weight: 1000;
+  text-decoration: underline;
+}
+
+#nav2:hover{
+  font-weight: 1000;
+  text-decoration: underline;
+}
+
+.intext{
+  text-decoration: none;
+  color: #0072B2;
+}
+
+.intext:hover{
+  font-weight: 1000;
+  text-decoration: underline;
+}
+
+#home:hover{
+  background-color: white;
+  border-radius: 10px;
+  color: #0072B2;
+}
+
+.oT{
+  width: 30%;
+  float: left;
+  margin-top: 5vh;
+  text-decoration: none;
+}
+
+/* LABEL TEXT */
+#oTitles{
+  float: right;
+  color: #0072B2;
+  font-size: 32px;
+  text-align: right;
+  text-decoration: none;
+}
+
+/* INFO ON ALL OTHER PAGES (NOT HOME) (RIGHT) */
+.oI{
+  width: 65%;
+  float: right;
+  margin-top: 5vh;
+}
+
+/* INFO TEXT */
+#oInfo{
+  float: left;
+  color: #0072B2;
+  font-size: 32px;
+  text-align: left;
+}
+
+.olinks{
+  text-decoration: none;
+  color: #0072B2;
+  text-decoration: underline;
+}
