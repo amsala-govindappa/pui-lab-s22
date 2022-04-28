@@ -2,10 +2,12 @@ Amsala Govindappa
 05-430 Programming Usable Interfaces
 Homework 8
 
-A. Figma Link:
+A. Video Link: https://www.youtube.com/watch?v=DavQZKXHze4
+
+B. Figma Link:
    https://www.figma.com/file/tviwfsWNxjKKhjpQmnJzO1/05-430-Assignment-7?node-id=0%3A1
 
-B. Hosting Link:
+   Hosting Link:
    https://amsala-govindappa.web.app
 
 C. Description:
