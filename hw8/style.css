@@ -1,3 +1,4 @@
+/* APPLIED TO WHOLE WEBSITE */
 *{
   margin: 0;
   padding: 0;
@@ -5,6 +6,7 @@
   text-decoration: none;
 }
 
+/* APPLIED TO ALL BODY ELEMENTS */
 body {
   background-color: #0072B2;
   font-family: Anaheim;
@@ -56,21 +58,13 @@ body {
   position: sticky;
 }
 
-#nav2{
-  color: #0072B2;
-  text-decoration: none;
-  margin-left: 7vw;
-  margin-right: 7vw;
-  font-size: 30px;
-  position: sticky;
-}
-
-/* SEPARATE PAGES (HOME) */
+/* SEPARATE PAGES FOR SCROLLING; EACH SECTION IS ONE PAGE */
 section{
   height: 100vh;
   scroll-snap-align: start;
 }
 
+/* SETS PAGE SIZE AND IMPLEMENTS SCROLL SNAP*/
 .container{
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
@@ -92,13 +86,6 @@ section{
   color: white;
   size: 200%;
   padding-top: 30vh;
-}
-
-/* ARROW DIV */
-#fixed{
-  position: fixed;
-  bottom: 0;
-  left: 50%;
 }
 
 /* DIV WITH IMAGE (LEFT) */
@@ -152,6 +139,7 @@ section{
   text-decoration: none;
 }
 
+/* DIFFERENT SIZE EDUCATION PAGE DUE TO CONTENT SIZE*/
 .eduT{
   width: 30%;
   float: left;
@@ -173,6 +161,7 @@ section{
   text-align: left;
 }
 
+/* DIFFERENT SIZE EDUCATION PAGE DUE TO CONTENT SIZE*/
 .eduI{
   width: 65%;
   float: right;
@@ -198,6 +187,7 @@ section{
   color: #0072B2;
 }
 
+/* FADING IN ANIMATION */
 @keyframes animateIn{
   from {
     opacity: 0%;
@@ -208,37 +198,38 @@ section{
   }
 }
 
+/* SETS TIME FOR ANIMATION */
 .animation{
   text-decoration: none;
   animation: animateIn 2s;
 }
 
+/* NAVIGATION HOVERING */
 #nav:hover{
   font-weight: 1000;
   text-decoration: underline;
 }
 
-#nav2:hover{
-  font-weight: 1000;
-  text-decoration: underline;
-}
-
+/* REMOVES LINK FORMATTING */
 .intext{
   text-decoration: none;
   color: #0072B2;
 }
 
+/* HOVERING IN ABOUT ME TEXT */
 .intext:hover{
   font-weight: 1000;
   text-decoration: underline;
 }
 
+/* HIGHLIGHTS HOME BUTTON */
 #home:hover{
   background-color: white;
   border-radius: 10px;
   color: #0072B2;
 }
 
+/* SAME AS ABOVE BUT OPPOSITE COLORS FOR SCROLLING EFFECT (ADDED 'O' FOR OPPOSITE) */
 .oT{
   width: 30%;
   float: left;
