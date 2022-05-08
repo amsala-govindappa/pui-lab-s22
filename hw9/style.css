@@ -1,0 +1,348 @@
+/* APPLIED TO WHOLE WEBSITE */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* APPLIED TO ALL BODY ELEMENTS */
+body {
+  background-color: #0072B2;
+  font-family: Anaheim;
+}
+
+/* TOP NAVIGATION MENUS */
+.menu{
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  padding-top: 22px;
+  padding-bottom: 20px;
+  background-color: #0072B2;
+}
+
+.menu2{
+  width: 100%;
+  margin-top: 22px;
+  text-align: center;
+  position: fixed;
+}
+
+.menu3{
+  width: 100%;
+  margin-top: 22px;
+  text-align: center;
+  padding-top: 22px;
+}
+
+/* AG HOME BUTTON */
+#home{
+  top: 0vh;
+  text-decoration: none;
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  left: 1vw;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* NAVIGATION BAR TEXT */
+#nav{
+  color: white;
+  text-decoration: none;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  font-size: 30px;
+  position: sticky;
+}
+
+/* SEPARATE PAGES FOR SCROLLING; EACH SECTION IS ONE PAGE */
+section{
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+/* SETS PAGE SIZE AND IMPLEMENTS SCROLL SNAP*/
+.container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+/* NAME ON HOMEPAGE */
+#name{
+  text-align: center;
+  color: white;
+  font-size: 128px;
+  padding-top: 30vh;
+}
+
+/* ARROW ELEMENT */
+#scrollArrow{
+  width: 100%;
+  text-align: center;
+  color: white;
+  size: 200%;
+  padding-top: 30vh;
+}
+
+/* DIV WITH IMAGE (LEFT) */
+.image{
+  width: 50%;
+  float: left;
+}
+
+/* IMAGE ELEMENT */
+#me{
+  width: 60%;
+  height: auto;
+  margin-right: 5vw;
+  margin-top: 15vh;
+  border-radius: 30px;
+  float: right;
+}
+
+/* DIV WITH ABOUT ME TEXT (RIGHT) */
+.about{
+  float: right;
+  width: 50%;
+}
+
+/* ABOUT ME TEXT */
+#paragraph{
+  font-size: 28px;
+  font-weight: 1000;
+  float: left;
+  width:  60%;
+  height: auto;
+  margin-left: 5vw;
+  margin-top: 20vh;
+  color: #0072B2;
+  line-height: 40px;
+}
+
+/* LABELS ON ALL OTHER PAGES (NOT HOME) (LEFT) */
+.T{
+  width: 30%;
+  float: left;
+  margin-top: 5vh;
+  text-decoration: none;
+}
+
+/* LABEL TEXT */
+#Titles{
+  float: right;
+  color: white;
+  font-size: 32px;
+  text-align: right;
+  text-decoration: none;
+}
+
+/* DIFFERENT SIZE EDUCATION PAGE DUE TO CONTENT SIZE*/
+.eduT{
+  width: 30%;
+  float: left;
+  margin-top: 15vh;
+}
+
+/* INFO ON ALL OTHER PAGES (NOT HOME) (RIGHT) */
+.I{
+  width: 65%;
+  float: right;
+  margin-top: 5vh;
+}
+
+/* INFO TEXT */
+#Info{
+  float: left;
+  color: white;
+  font-size: 32px;
+  text-align: left;
+}
+
+/* DIFFERENT SIZE EDUCATION PAGE DUE TO CONTENT SIZE*/
+.eduI{
+  width: 65%;
+  float: right;
+  margin-top: 15vh;
+}
+
+/* AG HOME BUTTON */
+.links{
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+
+/* FIRST SNAP PAGE (HOME) */
+.page1{
+  background-color: #0072B2;
+  color: white;
+}
+
+/* SECOND SNAP PAGE (HOME) */
+.page2{
+  background-color: white;
+  color: #0072B2;
+}
+
+/* FADING IN ANIMATION */
+@keyframes animateIn{
+  from {
+    opacity: 0%;
+  }
+  to{
+    opacity: 100%;
+  }
+}
+
+/* SETS TIME FOR ANIMATION */
+.animation{
+  text-decoration: none;
+  animation: animateIn 2s;
+}
+
+/* NAVIGATION HOVERING */
+#nav:hover{
+  font-weight: 1000;
+  text-decoration: underline;
+}
+
+/* REMOVES LINK FORMATTING */
+.intext{
+  text-decoration: none;
+  color: #0072B2;
+  text-decoration: underline;
+}
+
+/* HOVERING IN ABOUT ME TEXT */
+.intext:hover{
+  font-weight: 1000;
+  text-decoration: underline;
+}
+
+/* HIGHLIGHTS HOME BUTTON */
+#home:hover{
+  background-color: white;
+  border-radius: 10px;
+  color: #0072B2;
+}
+
+/* SAME AS ABOVE BUT OPPOSITE COLORS FOR SCROLLING EFFECT (ADDED 'O' FOR OPPOSITE) */
+.oT{
+  width: 30%;
+  float: left;
+  margin-top: 5vh;
+  text-decoration: none;
+}
+
+/* LABEL TEXT */
+#oTitles{
+  float: right;
+  color: #0072B2;
+  font-size: 32px;
+  text-align: right;
+  text-decoration: none;
+}
+
+/* INFO ON ALL OTHER PAGES (NOT HOME) (RIGHT) */
+.oI{
+  width: 65%;
+  float: right;
+  margin-top: 5vh;
+}
+
+/* INFO TEXT */
+#oInfo{
+  float: left;
+  color: #0072B2;
+  font-size: 32px;
+  text-align: left;
+}
+
+.olinks{
+  text-decoration: none;
+  color: #0072B2;
+  text-decoration: underline;
+}
+
+.oTw{
+  width: 30%;
+  float: left;
+  margin-top: 5vh;
+  text-decoration: none;
+}
+
+.oIw{
+  width: 35%;
+  float: left;
+  margin-top: 5vh;
+  margin-left: 5vw;
+}
+
+#workPics{
+  float: right;
+  width: 20%;
+  height: auto;
+  padding-right: 100px;
+}
+
+#amazon{
+  width: 16%;
+  height: auto;
+  margin-top: 12vh;
+}
+
+#wabtec{
+  margin-top: -9vh;
+  width: 20%;
+  height: auto;
+  float: right;
+  margin-right: 3vw;
+}
+
+#cmu{
+  width: 11%;
+  height: auto;
+  margin-top: -5vh;
+}
+
+#arthouse{
+  width: 15%;
+  height: auto;
+  float: right;
+  margin-right: 6vw;
+  margin-top: -12vh;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0px;
+  float: right;
+}
+
+#github{
+  width: 5%;
+  height: auto;
+  position: sticky;
+  float: right;
+}
+
+#linkedin{
+  width: 4.1%;
+  height: auto;
+  position: sticky;
+  float: right;
+  padding-top: 4px;
+}
+
+#resume{
+  width: 3.5%;
+  height: auto;
+  position: sticky;
+  float: right;
+  margin-bottom: -1vh;
+  margin-right: .75vw;
+}
