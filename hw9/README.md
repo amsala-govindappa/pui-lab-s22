@@ -1,14 +1,19 @@
 Amsala Govindappa
 05-430 Programming Usable Interfaces
-Homework 8
+Homework 9
 
-A. Video Link: https://www.youtube.com/watch?v=DavQZKXHze4
+A. Hosting Link: https://pui-hw9-3f5b1.web.app
 
-B. Figma Link:
-   https://www.figma.com/file/tviwfsWNxjKKhjpQmnJzO1/05-430-Assignment-7?node-id=0%3A1
+B. Github Link: https://github.com/amsala-govindappa/pui-lab-s22/tree/master/hw9
 
-   Hosting Link:
-   https://amsala-govindappa.web.app
+UPDATES FROM ASSIGNMENT 8:
+   - Changed navigation bar to jump to sections on the same page rather than jump to separate pages to create a smoother experience
+   - Made links more obvious by underlining them to differentiate them from normal text
+   - Added more ways to access different parts of the website, like clicking the arrow button on the home/landing page instead of scrolling
+   - Added a home button (which was lost with the removal of pages) to allow users to quickly return to the home/landing page
+   - Added images/visuals to the work experience page to make it more engaging and interesting to look at (additionally, recognizable logos allow users to quickly gain information, before even reading the content on the page).
+   - Added linkedin and github icons in a fixed position footer with links to my linkedin and github, respectively.
+   - Added a resume icon link in the same footer next to linkedin and github, which links to a pdf for easy download and to present users with information in a familiar format
 
 C. Description:
    My website is a personal website, showcasing my skills, experience, and other information about myself. The website is engaging, with an animation that begins as soon as the page loads. Additionally, there are several links to external websites that provide more information or context, allowing the user to engage even with plain blocks of text. There is also an animation that makes text slowly appear on the screen when the page is changed, so the transitions are not so harsh and sudden.
